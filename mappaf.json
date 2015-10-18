@@ -1,0 +1,1699 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.869695498173,
+                    41.118442505767
+                ]
+            },
+            "properties": {
+                "name": "PIAZZA MORO ,CAPOLINEA",
+                "id": "09369C01"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.869461974104,
+                    41.118694204624
+                ]
+            },
+            "properties": {
+                "name": "piazza Moro ,angolo De Cesare",
+                "id": "09369101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.869642150415,
+                    41.118051135109
+                ]
+            },
+            "properties": {
+                "name": "Piazza  Moro ,F.S.",
+                "id": "09369001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.869488174979,
+                    41.118266097136
+                ]
+            },
+            "properties": {
+                "name": "Piazza  Moro ,Capolinea",
+                "id": "09369C00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.86919897797,
+                    41.118903038426
+                ]
+            },
+            "properties": {
+                "name": "Via De Cesare-Piazza Moro fronte civ.56",
+                "id": "09153001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.871760161765,
+                    41.119202879232
+                ]
+            },
+            "properties": {
+                "name": "Via Melo, 230",
+                "id": "09357001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.871704300975,
+                    41.119706563769
+                ]
+            },
+            "properties": {
+                "name": "Via Melo, 217",
+                "id": "09357101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.872669699116,
+                    41.119421913224
+                ]
+            },
+            "properties": {
+                "name": "C.so Cavour, 209",
+                "id": "09099103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.867997365934,
+                    41.119767913149
+                ]
+            },
+            "properties": {
+                "name": " Via Crisanzio, Ateneo",
+                "id": "09126101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.868994169267,
+                    41.121035871452
+                ]
+            },
+            "properties": {
+                "name": "Via A.da Bari-P. Umberto fronte Ateneo ",
+                "id": "09015001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.868096252802,
+                    41.1169298285
+                ]
+            },
+            "properties": {
+                "name": "Via Giuseppe Capruzzi 220",
+                "id": "03075003"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.868691747022,
+                    41.115987058947
+                ]
+            },
+            "properties": {
+                "name": "Via Giulio Petroni 19\/C",
+                "id": "03285C00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.872497477987,
+                    41.121131427614
+                ]
+            },
+            "properties": {
+                "name": "C.so Cavour, 157",
+                "id": "09099102"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.868710020649,
+                    41.115808849791
+                ]
+            },
+            "properties": {
+                "name": "via G. Petroni, 19\/C",
+                "id": "03285101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.872497477987,
+                    41.121131427614
+                ]
+            },
+            "properties": {
+                "name": "C.so Cavour, 157",
+                "id": "09099102"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.868726674974,
+                    41.115646432486
+                ]
+            },
+            "properties": {
+                "name": "via Giulio Petroni,Caserma Rossani",
+                "id": "03285012"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.86944272627,
+                    41.122008867009
+                ]
+            },
+            "properties": {
+                "name": "Bari, Via Dante Alighieri",
+                "id": "09146103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.873948685926,
+                    41.119625659245
+                ]
+            },
+            "properties": {
+                "name": "P.zza L.di Savoia, 7 (Capolinea)",
+                "id": "07324C00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.873933185892,
+                    41.119726459247
+                ]
+            },
+            "properties": {
+                "name": "Piazza L. di Savoia, 7",
+                "id": "07324101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.873145217733,
+                    41.116073791067
+                ]
+            },
+            "properties": {
+                "name": "Viale Unita' D'italia ,22\/a",
+                "id": "06531002"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.874194365075,
+                    41.119009428683
+                ]
+            },
+            "properties": {
+                "name": "Piazza L. di Savoia, Chiesa S. Antonio",
+                "id": "07324002"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.866771421501,
+                    41.116842114752
+                ]
+            },
+            "properties": {
+                "name": "Via Capruzzi di fronte al 236",
+                "id": "03075101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.872332380637,
+                    41.115139059476
+                ]
+            },
+            "properties": {
+                "name": "Corso Benedetto Croce ,difronte 70\/A",
+                "id": "06138102"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.866696264288,
+                    41.116838260248
+                ]
+            },
+            "properties": {
+                "name": "Via Capruzzi, 236",
+                "id": "03075001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.866219655604,
+                    41.118481702564
+                ]
+            },
+            "properties": {
+                "name": "corso Italia ,82",
+                "id": "09291001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.873197501346,
+                    41.115642886777
+                ]
+            },
+            "properties": {
+                "name": "V.le Unit\u00e0 D'Italia, 55",
+                "id": "06531101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.866219655604,
+                    41.118481702564
+                ]
+            },
+            "properties": {
+                "name": "corso Italia ,82",
+                "id": "09291001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.87376903643,
+                    41.121079310442
+                ]
+            },
+            "properties": {
+                "name": "Via De Giosa ,50\/a",
+                "id": "07165001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.87263369733,
+                    41.122699784085
+                ]
+            },
+            "properties": {
+                "name": "Bari, Corso Cavour 41",
+                "id": "07099004"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.87332267477,
+                    41.11458238732
+                ]
+            },
+            "properties": {
+                "name": "Viale Unita' D'italia ,48",
+                "id": "06531001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.875280728712,
+                    41.120191812702
+                ]
+            },
+            "properties": {
+                "name": "Via Carulli ,74",
+                "id": "07090101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.868735757272,
+                    41.12365889217
+                ]
+            },
+            "properties": {
+                "name": "Via  A. da Bari, Banca di Roma",
+                "id": "09015002"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.872205101835,
+                    41.123743311009
+                ]
+            },
+            "properties": {
+                "name": "C.so Cavour ang. Via Putignani",
+                "id": "09099104"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.86466044008,
+                    41.119110385908
+                ]
+            },
+            "properties": {
+                "name": "Via Q.no Sella, 225",
+                "id": "08490103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.864652192606,
+                    41.119196933503
+                ]
+            },
+            "properties": {
+                "name": "Via Quintino Sella ,225",
+                "id": "08441103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.864589502844,
+                    41.119854316735
+                ]
+            },
+            "properties": {
+                "name": "Via Quintino Sella, 209",
+                "id": "08441104"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.876124322802,
+                    41.117095124613
+                ]
+            },
+            "properties": {
+                "name": "via Dei Mille ,20\/A",
+                "id": "06186002"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.865173082456,
+                    41.121762957917
+                ]
+            },
+            "properties": {
+                "name": "Bari, Via Dante Alighieri",
+                "id": "09146102"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.868519831679,
+                    41.112555118412
+                ]
+            },
+            "properties": {
+                "name": "Via G. Petroni, 41\/D",
+                "id": "03285102"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.872421624633,
+                    41.124728458627
+                ]
+            },
+            "properties": {
+                "name": "Corso Cavour , Camera di commercio (cap)",
+                "id": "07099C01"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.868497826439,
+                    41.112496767796
+                ]
+            },
+            "properties": {
+                "name": "via Giulio Petroni,12\/M",
+                "id": "03285011"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.872421624633,
+                    41.124728458627
+                ]
+            },
+            "properties": {
+                "name": "Corso Cavour , Camera di commercio (cap)",
+                "id": "07099C01"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.86418555607,
+                    41.116692656653
+                ]
+            },
+            "properties": {
+                "name": "via Capruzzi ,di fronte al 266\/B",
+                "id": "03075102"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.876728490973,
+                    41.117461336484
+                ]
+            },
+            "properties": {
+                "name": "Estr. Capruzzi 20\/A",
+                "id": "07075001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.872149050899,
+                    41.112393382155
+                ]
+            },
+            "properties": {
+                "name": "Corso Benedetto Croce ,93\/a",
+                "id": "06138103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.872067421453,
+                    41.124970110483
+                ]
+            },
+            "properties": {
+                "name": "Corso Cavour ang. Via Piccinni",
+                "id": "09099101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.864434201116,
+                    41.12148193262
+                ]
+            },
+            "properties": {
+                "name": "Via Quintino Sella ,141",
+                "id": "08441102"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.872403419776,
+                    41.12490026371
+                ]
+            },
+            "properties": {
+                "name": "C.so Cavour, Camera di Commercio",
+                "id": "07099003"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.863740335985,
+                    41.119541061819
+                ]
+            },
+            "properties": {
+                "name": "via Crisanzio ,93",
+                "id": "08126102"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.871512359553,
+                    41.125456486679
+                ]
+            },
+            "properties": {
+                "name": "Via Piccinni, 9",
+                "id": "09435101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.87157696945,
+                    41.12546046136
+                ]
+            },
+            "properties": {
+                "name": "Via  Piccinni, 8",
+                "id": "09435002"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.868157091108,
+                    41.125260993071
+                ]
+            },
+            "properties": {
+                "name": "Via  Piccinni, 90",
+                "id": "09435001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.872842073222,
+                    41.125264865829
+                ]
+            },
+            "properties": {
+                "name": "P.zza Eroi del Mare (capolinea)",
+                "id": "07530C00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.87732434541,
+                    41.117500766105
+                ]
+            },
+            "properties": {
+                "name": "Estr. Capruzzi, 9",
+                "id": "07075101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.86750292443,
+                    41.125222160233
+                ]
+            },
+            "properties": {
+                "name": "Via  Piccinni , 105 Comune ",
+                "id": "09435102"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.864119285107,
+                    41.115065261319
+                ]
+            },
+            "properties": {
+                "name": "viale Salandra, 14\/A",
+                "id": "03471002"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.873598979236,
+                    41.112229581364
+                ]
+            },
+            "properties": {
+                "name": "Viale della Repubblica. fronte civ. 16\/c",
+                "id": "06211102"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.873931799004,
+                    41.125073526681
+                ]
+            },
+            "properties": {
+                "name": "L.re Di Crollalanza, p.zza Eroi del Mare",
+                "id": "07222003"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.873998629099,
+                    41.125035079076
+                ]
+            },
+            "properties": {
+                "name": "L.re Di Crollalanza, fr. Eroi del Mare",
+                "id": "07222103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.873931799004,
+                    41.125073526681
+                ]
+            },
+            "properties": {
+                "name": "L.re Di Crollalanza, p.zza Eroi del Mare",
+                "id": "07222003"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.873998629099,
+                    41.125035079076
+                ]
+            },
+            "properties": {
+                "name": "L.re Di Crollalanza, fr. Eroi del Mare",
+                "id": "07222103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.873931799004,
+                    41.125073526681
+                ]
+            },
+            "properties": {
+                "name": "L.re Di Crollalanza, p.zza Eroi del Mare",
+                "id": "07222003"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.873998629099,
+                    41.125035079076
+                ]
+            },
+            "properties": {
+                "name": "L.re Di Crollalanza, fr. Eroi del Mare",
+                "id": "07222103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.873931799004,
+                    41.125073526681
+                ]
+            },
+            "properties": {
+                "name": "L.re Di Crollalanza, p.zza Eroi del Mare",
+                "id": "07222003"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.873998629099,
+                    41.125035079076
+                ]
+            },
+            "properties": {
+                "name": "L.re Di Crollalanza, fr. Eroi del Mare",
+                "id": "07222103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.873634075526,
+                    41.111997473412
+                ]
+            },
+            "properties": {
+                "name": "Viale Della Repubblica ,14\/a",
+                "id": "06211003"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.870792528378,
+                    41.126125169211
+                ]
+            },
+            "properties": {
+                "name": "corso Vitt. Emanuele, ang. Via Melo",
+                "id": "09556101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.870890892179,
+                    41.126130603675
+                ]
+            },
+            "properties": {
+                "name": "C.so Vitt. Emanuele,ang. via Melo",
+                "id": "09556002"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.868874794832,
+                    41.126009275934
+                ]
+            },
+            "properties": {
+                "name": "corso Vitt. Emanuele ang. A.da Bari",
+                "id": "09556102"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.870890892179,
+                    41.126130603675
+                ]
+            },
+            "properties": {
+                "name": "C.so Vitt. Emanuele,ang. via Melo",
+                "id": "09556002"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.868874794832,
+                    41.126009275934
+                ]
+            },
+            "properties": {
+                "name": "corso Vitt. Emanuele ang. A.da Bari",
+                "id": "09556102"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.870890892179,
+                    41.126130603675
+                ]
+            },
+            "properties": {
+                "name": "C.so Vitt. Emanuele,ang. via Melo",
+                "id": "09556002"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.868874794832,
+                    41.126009275934
+                ]
+            },
+            "properties": {
+                "name": "corso Vitt. Emanuele ang. A.da Bari",
+                "id": "09556102"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.868815489276,
+                    41.126007092907
+                ]
+            },
+            "properties": {
+                "name": "corso Vitt. Emanuele ang. Via Sparano",
+                "id": "09556001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.877435284255,
+                    41.115518001826
+                ]
+            },
+            "properties": {
+                "name": "via Dei Mille ,114",
+                "id": "06186001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.862536452285,
+                    41.118258160815
+                ]
+            },
+            "properties": {
+                "name": "C.so Italia ang. Via Eritrea",
+                "id": "08291002"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.867389401032,
+                    41.12592180065
+                ]
+            },
+            "properties": {
+                "name": "Corso V. Emanuele - Provvisoria",
+                "id": "09556C01"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.876417812355,
+                    41.123694670728
+                ]
+            },
+            "properties": {
+                "name": "lung Di Crollalanza, Largo G. Bruno",
+                "id": "07222001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.862584852293,
+                    41.11711776081
+                ]
+            },
+            "properties": {
+                "name": "Sottovia di Via Q.Sella",
+                "id": "03490001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.876571616362,
+                    41.123611388876
+                ]
+            },
+            "properties": {
+                "name": "Lung. Di Crollalanza, di fronte G. Bruno",
+                "id": "07222102"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.872042634259,
+                    41.110844251491
+                ]
+            },
+            "properties": {
+                "name": "Corso Benedetto Croce ,141",
+                "id": "06138104"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.876626754289,
+                    41.113630431753
+                ]
+            },
+            "properties": {
+                "name": "via M. C. Di Savoia, difronte Civ 18",
+                "id": "06330001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.862643067736,
+                    41.116296592441
+                ]
+            },
+            "properties": {
+                "name": "Viale Ennio, difronte al Civ. 4",
+                "id": "03237101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.876782404363,
+                    41.11370239905
+                ]
+            },
+            "properties": {
+                "name": "Via M. C. di Savoia, 22",
+                "id": "06330101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.86663624342,
+                    41.12588625297
+                ]
+            },
+            "properties": {
+                "name": "P.zza Massari, Prefettura",
+                "id": "09351C00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.864174452795,
+                    41.123991513547
+                ]
+            },
+            "properties": {
+                "name": "Via Quintino Sella ,51",
+                "id": "08441101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.872490982448,
+                    41.126536459433
+                ]
+            },
+            "properties": {
+                "name": "Lung. Imp. Augusto fronte Mercato pesce",
+                "id": "09019002"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.866768961002,
+                    41.126226700843
+                ]
+            },
+            "properties": {
+                "name": "Piazza Massari ,Prefettura",
+                "id": "09351001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.878289251215,
+                    41.115665319805
+                ]
+            },
+            "properties": {
+                "name": "via Lattanzio ,79",
+                "id": "06306101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.867604466201,
+                    41.110462160136
+                ]
+            },
+            "properties": {
+                "name": "via Pasubio ,180",
+                "id": "03420001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.878843135632,
+                    41.120403947061
+                ]
+            },
+            "properties": {
+                "name": "Piazza  Carabellese, Madonnella",
+                "id": "07081101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.867443522903,
+                    41.110481026104
+                ]
+            },
+            "properties": {
+                "name": "Via Pasubio ,157",
+                "id": "03420101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.878843135632,
+                    41.120403947061
+                ]
+            },
+            "properties": {
+                "name": "Piazza  Carabellese, Madonnella",
+                "id": "07081101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.867443522903,
+                    41.110481026104
+                ]
+            },
+            "properties": {
+                "name": "Via Pasubio ,157",
+                "id": "03420101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.872460725609,
+                    41.127098153699
+                ]
+            },
+            "properties": {
+                "name": "Lungomare Imp.Augusto,Piazza Ferrarese",
+                "id": "09295104"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.873803951945,
+                    41.11062746296
+                ]
+            },
+            "properties": {
+                "name": "Viale della Repubblica, fronte 58\/b",
+                "id": "06211103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.878923437612,
+                    41.120409551933
+                ]
+            },
+            "properties": {
+                "name": "piazza Carabellese ,Madonnella (Capoline",
+                "id": "07081C00"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.862104424361,
+                    41.121582606053
+                ]
+            },
+            "properties": {
+                "name": "Via Dante Alighieri - Provvisoria",
+                "id": "09146101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.878016271412,
+                    41.114274670432
+                ]
+            },
+            "properties": {
+                "name": "Via M. C. di Savoia, 49",
+                "id": "06330002"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.863371747583,
+                    41.113171190755
+                ]
+            },
+            "properties": {
+                "name": "viale Salandra, 46",
+                "id": "03471001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.866124568885,
+                    41.126621061268
+                ]
+            },
+            "properties": {
+                "name": "Bari, Piazza Giuseppe Massari 12",
+                "id": "09351C01"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.878360210797,
+                    41.114342043629
+                ]
+            },
+            "properties": {
+                "name": "Via dei Mille, 180",
+                "id": "06186003"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.876372047387,
+                    41.11181329457
+                ]
+            },
+            "properties": {
+                "name": "via Re David ,178\/C",
+                "id": "06447003"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.87858741325,
+                    41.122607442555
+                ]
+            },
+            "properties": {
+                "name": "lung.di Crollalanza,di fronte P.zza Diaz",
+                "id": "07222101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.863791960864,
+                    41.125016737628
+                ]
+            },
+            "properties": {
+                "name": "Via  Piccinni, 210",
+                "id": "08435001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.87638229081,
+                    41.111758173306
+                ]
+            },
+            "properties": {
+                "name": "via Re David, scuola De Amicis",
+                "id": "06447101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.877242894815,
+                    41.112611158803
+                ]
+            },
+            "properties": {
+                "name": "Via Postiglione fronte 14\/D",
+                "id": "06439102"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.878680171913,
+                    41.122569517009
+                ]
+            },
+            "properties": {
+                "name": "lung Di Crollalanza ,P.zza Diaz",
+                "id": "07222002"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.879145860638,
+                    41.121427225533
+                ]
+            },
+            "properties": {
+                "name": "Via Giandomenico Petroni, 39",
+                "id": "07429001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.86596878862,
+                    41.126847584118
+                ]
+            },
+            "properties": {
+                "name": "piazza Massari , ex capolinea",
+                "id": "09351102"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.86196666719,
+                    41.114583294694
+                ]
+            },
+            "properties": {
+                "name": "Bari, Viale Ennio fronte Chiesa ",
+                "id": "03237104"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.873883385993,
+                    41.109981954129
+                ]
+            },
+            "properties": {
+                "name": "Viale  Della Repubblica ,58\/b",
+                "id": "06211002"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.86099378005,
+                    41.119360026586
+                ]
+            },
+            "properties": {
+                "name": "via Crisanzio ,163",
+                "id": "08126103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.878964997623,
+                    41.114908690278
+                ]
+            },
+            "properties": {
+                "name": "via Lattanzio ,97",
+                "id": "06306102"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.864707900403,
+                    41.111099965756
+                ]
+            },
+            "properties": {
+                "name": "via S. l'Africano ,Ist. Prez. Sangue",
+                "id": "03484001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.864490937297,
+                    41.111248428192
+                ]
+            },
+            "properties": {
+                "name": "via S. l'Africano ,Villa Bianca",
+                "id": "03484101"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.871916978725,
+                    41.109280359545
+                ]
+            },
+            "properties": {
+                "name": "Corso Benedetto Croce, 199",
+                "id": "06138105"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.867745535482,
+                    41.109463527565
+                ]
+            },
+            "properties": {
+                "name": "via Giulio Petroni, 61",
+                "id": "03285103"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.878087738444,
+                    41.112783456604
+                ]
+            },
+            "properties": {
+                "name": "Via Postiglione, 12\/A",
+                "id": "06439001"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.865857498678,
+                    41.127300233966
+                ]
+            },
+            "properties": {
+                "name": "Piazza Massari Ang Federico II di Svevia",
+                "id": "09351003"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.863490248897,
+                    41.125706648865
+                ]
+            },
+            "properties": {
+                "name": "C.so Vitt.Emanuele-Pal.Fizzarotti",
+                "id": "09556103"
+            }
+        }
+    ]
+}
