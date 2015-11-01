@@ -82,7 +82,7 @@ function start($telegram,$update)
 }elseif ($text == "01") {
 //	$response=$telegram->getData();
 	$temp_c1="";
-	$h = "2";// Hour for time zone goes here e.g. +7 or -4, just remove the + or -
+	$h = "1";// Hour for time zone goes here e.g. +7 or -4, just remove the + or -
 	$hm = $h * 60;
 	$ms = $hm * 60;
 //	$bot_request_message_id=$response["message"]["message_id"];
@@ -97,7 +97,7 @@ function start($telegram,$update)
 		$time =$parsed_json[0]->{'Orario'}; //registro nel DB anche il tempo unix
 		$time =str_replace("/Date(","",$time);
 		$time =str_replace("000+0200)/","",$time);
-
+	$time =str_replace("000+0100)/","",$time);
 		$time =str_replace(" ","",$time);
 		$time =str_replace("\n","",$time);
 		$timef=floatval($time);
@@ -122,7 +122,7 @@ function start($telegram,$update)
 	$time =$parsed_json[$i]->{'Orario'}; //registro nel DB anche il tempo unix
 	$time =str_replace("/Date(","",$time);
 	$time =str_replace("000+0200)/","",$time);
-
+	$time =str_replace("000+0100)/","",$time);
 	$time =str_replace(" ","",$time);
 	$time =str_replace("\n","",$time);
 	$timef=floatval($time);
@@ -179,7 +179,7 @@ function location_manager($db,$telegram,$user_id,$chat_id,$location)
 			$bot_request_message_id=$response["message"]["message_id"];
 			$time=$response["message"]["date"]; //registro nel DB anche il tempo unix
 
-			$h = "2";// Hour for time zone goes here e.g. +7 or -4, just remove the + or -
+			$h = "1";// Hour for time zone goes here e.g. +7 or -4, just remove the + or -
 			$hm = $h * 60;
 			$ms = $hm * 60;
 			$timec=gmdate("Y-m-d\TH:i:s\Z", $time+($ms));
@@ -278,7 +278,7 @@ function location_manager($db,$telegram,$user_id,$chat_id,$location)
 
 
 	//    echo $countf;
-			$h = "2";// Hour for time zone goes here e.g. +7 or -4, just remove the + or -
+			$h = "1";// Hour for time zone goes here e.g. +7 or -4, just remove the + or -
 			$hm = $h * 60;
 			$ms = $hm * 60;
 			date_default_timezone_set('UTC');
@@ -299,6 +299,7 @@ function location_manager($db,$telegram,$user_id,$chat_id,$location)
 		//    echo "\ntimestamp:".$time."senza pulizia dati";
 				$time =str_replace("/Date(","",$time);
 				$time =str_replace("000+0200)/","",$time);
+					$time =str_replace("000+0100)/","",$time);
 		//    $time =str_replace("T"," ",$time);
 		//    $time =str_replace("Z"," ",$time);
 				$time =str_replace(" ","",$time);

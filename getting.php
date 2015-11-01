@@ -54,7 +54,7 @@ class getdata {
          $countf = $countf+1;
       }
   //    echo $countf;
-      $h = "2";// Hour for time zone goes here e.g. +7 or -4, just remove the + or -
+      $h = "1";// Hour for time zone goes here e.g. +7 or -4, just remove the + or -
       $hm = $h * 60;
       $ms = $hm * 60;
       date_default_timezone_set('UTC');
@@ -64,6 +64,7 @@ class getdata {
     //    echo "\n<br>timestamp:".$time."senza pulizia dati";
         $time =str_replace("/Date(","",$time);
         $time =str_replace("000+0200)/","",$time);
+        $time =str_replace("000+0100)/","",$time);
     //    $time =str_replace("T"," ",$time);
     //    $time =str_replace("Z"," ",$time);
         $time =str_replace(" ","",$time);
