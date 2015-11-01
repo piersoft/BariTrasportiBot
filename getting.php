@@ -65,6 +65,9 @@ class getdata {
         $time =str_replace("/Date(","",$time);
         $time =str_replace("000+0200)/","",$time);
         $time =str_replace("000+0100)/","",$time);
+        if (strpos($time,'0100') == false) {
+  				$h = "2";
+  			}
     //    $time =str_replace("T"," ",$time);
     //    $time =str_replace("Z"," ",$time);
         $time =str_replace(" ","",$time);
