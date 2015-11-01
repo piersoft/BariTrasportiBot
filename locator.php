@@ -240,6 +240,7 @@ for (i=0;i<feat['PrevisioniLinee'].length;i++){
     var orario =last['OrarioArrivo'];
     orario= orario.replace("/Date(","");
     orario=orario.replace("000+0200)/","");
+    orario=orario.replace("000+0100)/","");
     var date=convertTimestamp(orario);
     //var date = new Date(orario*1000);
     //var iso = date.toISOString().match(/(\d{2}:\d{2}:\d{2})/);
