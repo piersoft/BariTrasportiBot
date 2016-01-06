@@ -126,6 +126,9 @@ overflow-x: hidden;
 		var lat=41.1181,
         lon=16.8695,
         zoom=14;
+
+
+
         var osm = new L.TileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {maxZoom: 20, attribution: 'Map Data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'});
 		var mapquest = new L.TileLayer('http://otile{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png', {subdomains: '1234', maxZoom: 18, attribution: 'Map Data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'});
 
@@ -144,7 +147,8 @@ overflow-x: hidden;
     "Mapquest Open": mapquest
         };
         L.control.layers(baseMaps).addTo(map);
-
+        var markeryou = L.marker([parseFloat('<?php printf($_GET['lat']); ?>'), parseFloat('<?php printf($_GET['lon']); ?>')]).addTo(map);
+        markeryou.bindPopup("<b>Sei qui</b>");
        var ico=L.icon({iconUrl:'icobusstop.png', iconSize:[40,60],iconAnchor:[20,0]});
        var markers = L.markerClusterGroup({spiderfyOnMaxZoom: false, showCoverageOnHover: true,zoomToBoundsOnClick: true});
 
