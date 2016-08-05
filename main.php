@@ -37,7 +37,7 @@ function start($telegram,$update)
 	date_default_timezone_set('Europe/Rome');
 	$today = date("Y-m-d H:i:s");
 
-	if ($text == "/start") {
+	if ($text == "/start" || $text =="©️info") {
 		$reply = "Benvenuto. Invia la tua posizione cliccando sulla graffetta (📎) e ti indicherò le fermate AMTAB di Bari più vicine nel raggio di 200 metri e relative linee ed orari";
 		$reply .= "\nI dati AMBTAB, in licenza opendata CC0 Universal, sono prelevabili realtime su http://bari.opendata.planetek.it/OrariBus/v2.1/";
 		$reply .= "\nLe risposte avverranno ogni 60 secondi";
@@ -45,11 +45,24 @@ function start($telegram,$update)
 
 		$content = array('chat_id' => $chat_id, 'text' => $reply);
 		$telegram->sendMessage($content);
-
+/*
 		$forcehide=$telegram->buildKeyBoardHide(true);
 		$content = array('chat_id' => $chat_id, 'text' => "", 'reply_markup' =>$forcehide, 'reply_to_message_id' =>$bot_request_message_id);
 		$bot_request_message=$telegram->sendMessage($content);
+		*/
+		$this->create_keyboard2($telegram,$chat_id);
+
 		$log=$today. ";new chat started;" .$chat_id. "\n";
+			exit;
+	}elseif ($text == "/location" || $text == "🌐posizione") {
+
+		$option = array(array($telegram->buildKeyboardButton("Invia la tua posizione / send your location", false, true)) //this work
+											);
+	// Create a permanent custom keyboard
+	$keyb = $telegram->buildKeyBoard($option, $onetime=false);
+	$content = array('chat_id' => $chat_id, 'reply_markup' => $keyb, 'text' => "Attiva la localizzazione sul tuo smartphone / Turn on your GPS");
+	$telegram->sendMessage($content);
+	exit;
 	}elseif ($text == "/linee" || $text =="linee") {
 	//$response=$telegram->getData();
 		$temp_c1="";
@@ -82,7 +95,7 @@ function start($telegram,$update)
 }elseif ($text == "01") {
 //	$response=$telegram->getData();
 	$temp_c1="";
-	$h = "1";// Hour for time zone goes here e.g. +7 or -4, just remove the + or -
+	$h = "2";// Hour for time zone goes here e.g. +7 or -4, just remove the + or -
 	$hm = $h * 60;
 	$ms = $hm * 60;
 //	$bot_request_message_id=$response["message"]["message_id"];
@@ -163,6 +176,17 @@ $telegram->sendMessage($content);
 
 
 // Crea la tastiera
+function create_keyboard2($telegram, $chat_id)
+ {
+	 			$option = array(["🌐posizione","©️info"]);
+				$keyb = $telegram->buildKeyBoard($option, $onetime=true);
+				$content = array('chat_id' => $chat_id, 'reply_markup' => $keyb, 'text' => "[Invia la tua posizione]");
+				$telegram->sendMessage($content);
+
+ }
+
+/*
+// Crea la tastiera
  function create_keyboard($telegram, $chat_id)
 	{
 		$forcehide=$telegram->buildKeyBoardHide(true);
@@ -171,7 +195,7 @@ $telegram->sendMessage($content);
 
 	}
 
-
+*/
 
 function location_manager($db,$telegram,$user_id,$chat_id,$location)
 	{
@@ -185,7 +209,7 @@ function location_manager($db,$telegram,$user_id,$chat_id,$location)
 			$bot_request_message_id=$response["message"]["message_id"];
 			$time=$response["message"]["date"]; //registro nel DB anche il tempo unix
 
-			$h = "1";// Hour for time zone goes here e.g. +7 or -4, just remove the + or -
+			$h = "2";// Hour for time zone goes here e.g. +7 or -4, just remove the + or -
 			$hm = $h * 60;
 			$ms = $hm * 60;
 			$timec=gmdate("Y-m-d\TH:i:s\Z", $time+($ms));
@@ -202,7 +226,7 @@ function location_manager($db,$telegram,$user_id,$chat_id,$location)
 			if ($count ==0){
 				$content = array('chat_id' => $chat_id, 'text' => 'Nessuna fermata trovata', 'reply_to_message_id' =>$bot_request_message_id);
 				$telegram->sendMessage($content);
-					$this->create_keyboard($telegram,$chat_id);
+					$this->create_keyboard2($telegram,$chat_id);
 				exit;
 			}
 	//    echo "Fermate più vicine rispetto a ".$lat."/".$lng." in raggio di ".$r." metri con relative linee urbane ed orari arrivi\n";
@@ -252,6 +276,8 @@ function location_manager($db,$telegram,$user_id,$chat_id,$location)
 
 			$temp_c1 .="\nVisualizzala su :\n".$shortLink['id'];
 
+
+
 		if ($countl[$i]!=0){
 			$temp_c1 .="\nLinee servite :";
 		}	else $temp_c1 .="\n";
@@ -284,7 +310,7 @@ function location_manager($db,$telegram,$user_id,$chat_id,$location)
 
 
 	//    echo $countf;
-			$h = "1";// Hour for time zone goes here e.g. +7 or -4, just remove the + or -
+			$h = "2";// Hour for time zone goes here e.g. +7 or -4, just remove the + or -
 			$hm = $h * 60;
 			$ms = $hm * 60;
 			date_default_timezone_set('UTC');
@@ -325,6 +351,7 @@ function location_manager($db,$telegram,$user_id,$chat_id,$location)
 	}
 
 $longUrl="http://www.piersoft.it/baritrasportibot/locator.php?lat=".$lat."&lon=".$lng."&r=200";
+/*
 $apiKey = API;
 
 $postData = array('longUrl' => $longUrl, 'key' => $apiKey);
@@ -351,6 +378,7 @@ $shortLink = get_object_vars($json);
 //return $json->id;
 
 $temp_c1 .="\nVisualizza tutte le fermate a te vicine su :\n".$shortLink['id'];
+*/
 
 
 
@@ -362,6 +390,10 @@ $temp_c1 .="\nVisualizza tutte le fermate a te vicine su :\n".$shortLink['id'];
 		 $telegram->sendMessage($content);
 
  }
+ $option = array( array( $telegram->buildInlineKeyboardButton("MAPPA", $url=$longUrl)));
+ $keyb = $telegram->buildInlineKeyBoard($option);
+ $content = array('chat_id' => $chat_id, 'reply_markup' => $keyb, 'text' => "<b>Visualizzate tutte sulla</b>",'parse_mode'=>"HTML");
+ $telegram->sendMessage($content);
  //$telegram->sendMessage($content);
 	echo $temp_l1;
 
@@ -373,7 +405,7 @@ $temp_c1 .="\nVisualizza tutte le fermate a te vicine su :\n".$shortLink['id'];
 	$today = date("Y-m-d H:i:s");
 
 	$log=$today. ";fermatebari sent;" .$chat_id. "\n";
-	$this->create_keyboard($telegram,$chat_id);
+	$this->create_keyboard2($telegram,$chat_id);
 	exit;
 
 	}
